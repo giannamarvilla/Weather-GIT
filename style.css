@@ -1,0 +1,177 @@
+body {
+  background-image: url("https://cdn.dribbble.com/users/1623218/screenshots/7283960/media/e31adaaa1d825380a427d56eb6d15efd.jpg?compress=1&resize=1600x1200");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333333;
+}
+
+h1 {
+  color: maroon;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+form {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #fff;
+  margin: 0.5em;
+  border-radius: 20px;
+  border: none;
+  height: 35px;
+}
+
+button:hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  border: 2px groove aquamarine;
+  border-radius: 8px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+i {
+  text-align: center;
+}
+
+.weekForecast {
+  width: 500px;
+}
+
+.bold {
+  padding: 0;
+}
+
+.card {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+  padding: 0.5em;
+  border-radius: 15px;
+  border: 3px aqua groove;
+  font-size: 120%;
+  box-shadow: 1px 1px 4px 1px grey;
+}
+
+.search-form {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 100%;
+  width: calc(100% - 100px);
+}
+
+.search-button {
+  display: inline-block;
+  background: #fff;
+  border: solid 1px #393e46;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.current-button {
+  display: inline-block;
+  background: #fff;
+  border: solid 1px #393e46;
+  border-radius: 10px;
+}
+.bold {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.weather-app {
+  border: solid 1px #c7a2a3;
+  border-radius: 2px;
+  box-shadow: 7px 5px 5px #c7a2a3;
+  padding: 30px;
+  max-width: 652px;
+}
+.top-weather-icon {
+  width: 70px;
+  margin: 20px 0;
+}
+.top-temperature {
+  font-size: 40px;
+}
+.week-day {
+  text-align: center;
+  margin: 7px;
+}
+.below-weather-icon {
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+.temperature {
+  text-align: center;
+  margin-top: 7px;
+  font-size: 16px;
+}
+.left-page {
+  padding: 0;
+  font-size: 13px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.celsius-link,
+fahrenheit-link {
+  font-size: 20px;
+  text-decoration: none;
+}

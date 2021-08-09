@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Update</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/1ac8697d33.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="weather-app">
+          <div class="col-15" id="searching">
+              <form type="search" id="search-form" autofocus><input type="search" id="city-input" placeholder="Enter a city" autocomplete="off">
+              <button class="search-button" id="search-button">Search</button><button class="current-button" id="current-button">Current Location</button>
+              </form>
+              <br/>
+              <br/>
+    
+    <h1 id="title-city"> </h1>
+    <h2 id="currentTime"> </h2>
+    <h3 id="description"> </h3>
+<center>
+  <div style="font-size: 3rem;"> <i class="fas fa-cloud-sun" class="icons"></i></div>
+    <span class="top-temperature" id="current-temp"></span><a id="celsius-link" href="#">℃ </a>| <a id="fahrenheit-link" href="#">℉</a>
+          </div>
+        </center>
+ 
+ <center>       
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>m/s</li>
+            </ul>
+          </center>
+      
+          <h2>Weather forecast this week</h2>
+          <hr>
+          <div class="weekForecast">
+            <div class="row">
+            <span class="col-2">
+            <div class="week-day">Fri</div><div style="font-size: 2.5rem;"> <i class="fas fa-cloud-showers-heavy"></i> </div>
+            <div class="temperature">7°|<a class="bold">15°</a></div></span>
+            <span class="col-2">
+            <div class="week-day">Sat</div><div style="font-size: 2.5rem;"> <i class="fas fa-cloud"></i></div>
+            <div class="temperature">3°|<a class="bold">13°</a></div></span>
+            <span class="col-2">
+            <div class="week-day">Sun</div><div style="font-size: 2.5rem;"> <i class="fas fa-cloud-sun"></i></div>
+            <div class="temperature">7°|<a class="bold">15°</a></div></span>
+            <span class="col-2">
+            <div class="week-day">Mon</div><div style="font-size: 2.5rem;"> <i class="fas fa-cloud-sun-rain"></i></div>
+            <div class="temperature">9°|<a class="bold">17°</a></div></span>
+            <span class="col-2">
+            <div class="week-day">Tue</div><div style="font-size: 2.5rem;"> <i class="fas fa-cloud-showers-heavy"></i></div>
+            <div class="temperature">4°|<a class="bold">20°</a></div></span>
+            <span class="col-2">
+            <div class="week-day">Wed</div><div style="font-size: 2.5rem;"><i class="fas fa-wind"></i></div>
+            <div class="temperature">5°|<a class="bold">14°</a></div></span>
+
+
+
+            </div>
+      </div>
+    <script src="src/index.js"></script>
+
+  <a href="https://github.com/giannamarvilla/Weather-GIT">Open-source code</a> by Gianna Marvilla
+
+  </body>
+</html>
